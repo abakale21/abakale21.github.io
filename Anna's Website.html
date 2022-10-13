@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+<head> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <style>
+
+    .page-top {
+      background-color: #8EAC0A;
+      height: 70px;
+      width: 100%;
+      text-align: center;
+      padding-top: 1%;
+      position: absolute;
+      left: 0;
+    }
+    .page-footer {
+      background-color: #8EAC0A;
+      width: 100%;
+      text-align: center;
+      left: 0;
+      clear: both;
+      height: 70px;
+      position: fixed;
+      bottom: 0;
+    }
+
+    .body-color {
+      background: #8EAC0A;
+	  background-image:  url(http://mathwithmrb.co.tz/wp-content/uploads/2022/06/grid-graph-background-1920x1280-1.jpg);
+}
+    }
+	
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      min-height: 50vh;
+	  min-width : 40vh
+      font-family: 'Permanent Marker', cursive;
+    }
+
+    nav a {
+      font-size: 25px;
+      color: black;
+      text-decoration: underline;
+      padding: 4px
+      text-align: center;
+	  font-weight:456px;
+	  font-family:'Permanent Marker', cursive;
+    }
+
+    nav {
+      position: fixed;
+      left: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      height: 30vh;
+    }
+
+    section {
+      position: absolute;
+      top: 0;
+      height: 80vh;
+      width: 0;
+      opacity: 0;
+      transition: all ease-in .8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    section h1 {
+      color: #fff;
+      font-size: 50px;
+      text-transform: uppercase;
+      opacity: 0;
+    }
+
+    /* Styles applied on trigger */
+    section:target {
+      opacity: 1;
+      position: absolute;
+      left: 0;
+      top: 7%;
+      width: 100%;
+      height: 80%;
+      z-index: 10;
+    }
+	
+    section:target h1 {
+      opacity: 0;
+      animation: 0s fadeIn forwards .1s
+    }
+
+    #first {
+      background: #DEF76F ;
+    }
+
+    #second {
+      background: #DEF76F ;
+    }
+
+    #third {
+      background: #DEF76F ;
+    }
+
+    #fourth {
+      background: #DEF76F ;
+    }
+
+    @keyframes fadeIn {
+      100% {
+        opacity: 1
+      }
+    }
+
+    .profile-info { 
+      width: 350px;
+      height: auto;
+      background: #DEF76F;
+      margin-right: 15%;
+      margin-left: 5%;
+    }
+	
+	img{
+		border-radius: 100%;
+		}
+	
+	
+    .contacts {
+      width: 150px;
+      height: 150px;
+      background: pink;
+      margin: 3% 5% 2% 5%;
+      display: inline-grid;
+      color: #	FFC0CB;
+      font-size: 50px;
+      text-transform: uppercase;
+
+    }
+
+    .profile-description {
+      width: 350px;
+      height: 350px;
+      background: #DEF76F;
+	  font-family: Ubuntu;
+	  margin: 3% 5% 2% 5%
+    }
+
+    .content {
+      height: 250px;
+      width: 385px;
+      float: left;
+      margin: 10% 0 0 40%;
+    }
+	
+  </style>
+</head>
+<header>
+  <div class="page-top"> header
+  
+
+  
+</header>
+<body class="body-color">
+
+<div>
+  <nav>
+    <a href="#first">About me </a>
+	<a href="#second">Life before Lithuania </a>
+	<a href="#third">Living in Lithuania </a>
+	<a href= #fourth"> Memories </a>
+  </nav>
+
+
+  <div class="content">
+    <h1>Anna's personal website</h1>
+  </div>
+</div>
+<div class='container'>
+  <section id='first'>
+    <div class="profile-info">
+   
+	  <img src= "C:\Users\Anna Bakalemwa\Desktop\IMG-4721.jpg"   alt="photo" width:"300" height="400 align>
+    </div>
+
+    <div class="profile-description">
+      <p>
+        Hello!<br> <br> My name is Anna Bakalemwa,
+	Welcome to the website in which I document my university experiance at LCC International University in Lithuania. 
+		 I am a Tanzanian student in my Sophmore year of University. Let me take you on my journey through this website. 
+		 yes 
+	
+      </p>
+    </div>
+
+  </section>
+
+  <section id='second'>
+    <div class="profile-info">
+      <h1>Life before Lithuania </h1>
+	  <p>For the first four years of my life I lived in Indonesia. Following these four years, I returned to my country of orgin, The United Republic of Tanzania in order to 
+	  reafilliate myself with my culture. I attended an International Christian school for all 12 years of study, graduated and attained my diploma at Haven of Peace Academy. 
+	  
+	  . </p>
+	  
+	  
+    </div>
+    <div class="profile-info">
+      	  <img src="C:\Users\Anna Bakalemwa\Desktop\IMG-9250.jpg"alt="profile-info" width="500" height= "375 align= center"
+	  
+	  
+    </div>
+  </section>
+
+  <section id='third'>
+    <div class="profile-info">
+      <h1>education info</h1>
+	   <p> Living in Lithuania has been an absolute blast. I have become assimilated to the culture through the tasting of diffrent cusines, taking walks
+	  
+	  in the pleasant nature, the beautiful flat lands 
+	  inclusive of the sea, and the serene forests in the woods. </p>
+	  
+	  
+    </div>
+    <div class="profile-info">
+      <h1>projects info</h1>
+    </div>
+  </section>
+
+  <section id='fourth'>
+    <div>
+      <div class="contacts">
+        <h3>CV</h3>
+      </div>
+      <div class="contacts">
+        <h3>email</h3>
+      </div>
+      <div class="contacts">
+        <h3>education info</h3>
+      </div>
+      <div class="contacts">
+        <h3>projects info</h3>
+      </div>
+      <div class="contacts">
+        <h3>projects info</h3>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+<footer>
+  <div class="page-footer">Copy writing, Last updated date</div>
+</footer>
+</html>
